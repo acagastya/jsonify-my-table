@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acagastya/table2json.git"
+    "url": "git+https://github.com/acagastya/jsonify-my-table.git"
   },
   "keywords": [
     "table",
@@ -17,7 +17,7 @@
   "author": "Agastya Chandrakant",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/acagastya/table2json/issues"
+    "url": "https://github.com/acagastya/jsonify-my-table/issues"
   },
-  "homepage": "https://github.com/acagastya/table2json#readme"
+  "homepage": "https://github.com/acagastya/jsonify-my-table#readme"
 }

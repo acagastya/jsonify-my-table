@@ -32,3 +32,4 @@ class table2json {
     }
   }
 }
+exports.table2json = table2json;

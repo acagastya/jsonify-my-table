@@ -1,4 +1,4 @@
-# table2json
+# jsonify-my-table
 
 Convert a HTML table to JSON. Actually, to an array of JSON objects.
 
@@ -15,11 +15,11 @@ Consider a HTML table with `id=myTable`.
 To convert it to an array of JSON objects:
 
 ```javascript
-const myTableObj = new table2json("myTable");
+const myTableObj = new jsonifyMyTable("myTable");
 myTableObj.res; // array of JSON objects.
 ```
 
-`table2json` class accepts one parameter; the table id.
+`jsonifyMyTable` class accepts one parameter; the table id.
 
 ## Data members
 
@@ -43,4 +43,4 @@ Use this for the client-side JavaScript. Though this module is published on `npm
 
 To add it in the `<script>` tag, make use of [Unpkg](https://unpkg.com "UNPKG").
 
-**Example:** `<script src="unpkg.com/table2json@latest/table2json.min.js"></script>`
+**Example:** `<script src="unpkg.com/jsonify-the-table@latest/jsonify-my-table.min.js"></script>`

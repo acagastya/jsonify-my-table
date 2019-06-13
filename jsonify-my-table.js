@@ -1,4 +1,4 @@
-class table2json {
+class jsonifyMyTable {
   constructor(tableID) {
     this.table = document.getElementById(tableID);
     if (!this.table) {
@@ -32,4 +32,4 @@ class table2json {
     }
   }
 }
-exports.table2json = table2json;
+exports.jsonifyMyTable = jsonifyMyTable;

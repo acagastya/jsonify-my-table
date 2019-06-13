@@ -1,8 +1,8 @@
 {
-  "name": "table2json",
+  "name": "jsonify-my-table",
   "version": "1.0.0",
   "description": "Convert a HTML table to JSON",
-  "main": "table2json.js",
+  "main": "jsonify-my-table.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

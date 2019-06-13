@@ -1,0 +1,23 @@
+{
+  "name": "table2json",
+  "version": "1.0.0",
+  "description": "Convert a HTML table to JSON",
+  "main": "table2json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acagastya/table2json.git"
+  },
+  "keywords": [
+    "table",
+    "json"
+  ],
+  "author": "Agastya Chandrakant",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/acagastya/table2json/issues"
+  },
+  "homepage": "https://github.com/acagastya/table2json#readme"
+}

@@ -43,4 +43,4 @@ Use this for the client-side JavaScript. Though this module is published on `npm
 
 To add it in the `<script>` tag, make use of [Unpkg](https://unpkg.com "UNPKG").
 
-**Example:** `<script src="unpkg.com/jsonify-the-table@latest/jsonify-my-table.min.js"></script>`
+**Example:** `<script src="unpkg.com/jsonify-my-table@latest/jsonify-my-table.min.js"></script>`

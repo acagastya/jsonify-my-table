@@ -32,4 +32,5 @@ class jsonifyMyTable {
     }
   }
 }
-exports.jsonifyMyTable = jsonifyMyTable;
+if(!window)
+  module.exports=jsonifyMyTable;

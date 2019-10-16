@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/acagastya/jsonify-my-table/issues"
   },
-  "homepage": "https://github.com/acagastya/jsonify-my-table#readme"
+  "homepage": "https://github.com/acagastya/jsonify-my-table#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

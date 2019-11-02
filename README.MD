@@ -2,6 +2,14 @@
 
 Convert a HTML table to JSON. Actually, to an array of JSON objects.
 
+## TL;DR
+
+```javascript
+const { res } = document
+  .getElementById('tableID')
+  .jsonify();
+```
+
 ## Usage
 
 Consider a HTML table with `id=myTable`.
@@ -15,34 +23,34 @@ Consider a HTML table with `id=myTable`.
 To convert it to an array of JSON objects:
 
 ```javascript
-const tableData = new jsonifyMyTable('myTable');
-tableData.res; // array of JSON objects.
+const table = document.getElementById('myTable');
+const obj = table.jsonify();
+const result = obj.res; // Array of objects.
 ```
 
-`jsonifyMyTable` class accepts one parameter; the table id.
+`jsonify` only works on table (`HTMLTableElement`).
 
 ## Data members
 
-In the above example, `tableData` contains following data members:
+In the above example, `obj` contains following data members:
 
-- **`res`** &mdash; the array containing JSON objects.
+- **`error`** &mdash; a flag which indicates if an error was occurred. It is `false` if no errors occurred, else contains the error message.
+- `res` &mdash; the array containing JSON objects.
 - `headers` &mdash; the keys in the objects (also, the table headers).
-- `error` &mdash; a flag which indicates if an error was occurred. Set to `false` if no errors occurred, else contains the error message.
 
 ```javascript
-const tableData = new jsonifyMyTable('id');
+const table = document.getElementById('tableID');
+const obj = table.jsonify();
 
-if (!tableData.error) {
-  // tableData.res...
+if (!obj.error) {
+  // obj.res...
 }
 ```
 
 ## Errors
 
-1. `id` does not exist in DOM.
-2. Element of `id` is not a table.
-3. There are no rows in `table#id`.
-4. Headers repeat.
+1. There are no rows in the table.
+2. Headers repeat.
 
 ## Note
 

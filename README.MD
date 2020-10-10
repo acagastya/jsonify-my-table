@@ -51,6 +51,7 @@ if (!obj.error) {
 
 1. There are no rows in the table.
 2. Headers repeat.
+3. `<td>` has more than one child nodes.
 
 ## Note
 

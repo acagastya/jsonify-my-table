@@ -1,3 +1,7 @@
+# 2.0.2
+
+- Support for extracting text in this format `<td><span class="bold">Foo</span></td>`.
+
 # 2.0.0
 
 ## API changes

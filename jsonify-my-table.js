@@ -2,7 +2,7 @@ HTMLTableElement.prototype.jsonify = function() {
   const result = {};
   result["error"] = false;
   // 1. Does table have rows?
-  if (this.rows < 1) {
+  if (this.rows.length < 1) {
     result["error"] = "There are no rows in the table.";
     return result;
   }

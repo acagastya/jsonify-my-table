@@ -1,3 +1,7 @@
+# 2.0.3
+
+- Explicit comparison for the length of rows in the table.
+
 # 2.0.2
 
 - Support for extracting text in this format `<td><span class="bold">Foo</span></td>`.

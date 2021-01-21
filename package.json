@@ -1,6 +1,6 @@
 {
   "name": "jsonify-my-table",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Convert a HTML table to JSON",
   "main": "jsonify-my-table.js",
   "scripts": {
